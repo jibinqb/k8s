@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	GetPodLogs("i3-access-efded", "counter")
+	GetPodLogs("ia-efded", "counter")
 }
 
 func GetPodLogs(namespace string, PodName string) error {
